@@ -1,0 +1,18 @@
+[package]
+name = "mainboard_sdl2"
+version = "0.1.0"
+description = "SDL2 UI for Mainboard"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+derive_more = "0.99.17"
+once_cell = "1.18.0"
+sdl2 = { version = "0.35.2", features = ["ttf"] }
+serde = { version = "1.0.189", features = ["derive"] }
+stable_deref_trait = "1.2.0"
+thiserror = "1.0.49"
+yoke = { version = "0.7.2", features = ["derive"] }
+fuzzer = { package = "mainboard_fuzzer", version = "0.1.0", path = "../mainboard_fuzzer" }
+config = { package = "mainboard_config", version = "0.1.0", path = "../mainboard_config" }
+

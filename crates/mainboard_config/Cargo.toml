@@ -1,0 +1,8 @@
+[package]
+name = "mainboard_config"
+version = "0.1.0"
+description = "Mainboard configuration"
+edition = "2021"
+
+[dependencies]
+fuzzer = { package = "mainboard_fuzzer", version = "0.1.0", path = "../mainboard_fuzzer" }

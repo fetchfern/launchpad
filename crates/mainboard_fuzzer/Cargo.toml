@@ -1,0 +1,9 @@
+[package]
+name = "mainboard_fuzzer"
+version = "0.1.0"
+description = "mainboard fuzzer"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+fuzzy-matcher = "0.3.7"
