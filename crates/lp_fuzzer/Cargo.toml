@@ -1,7 +1,7 @@
 [package]
-name = "mainboard_fuzzer"
+name = "lp_fuzzer"
 version = "0.1.0"
-description = "mainboard fuzzer"
+description = "Launchpad fuzzer"
 edition = "2021"
 
 [dependencies]

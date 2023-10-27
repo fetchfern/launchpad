@@ -1,0 +1,8 @@
+[package]
+name = "lp_config"
+version = "0.1.0"
+description = "Launchpad configuration"
+edition = "2021"
+
+[dependencies]
+fuzzer = { package = "lp_fuzzer", version = "0.1.0", path = "../lp_fuzzer" }

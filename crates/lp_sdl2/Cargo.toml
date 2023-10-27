@@ -1,7 +1,7 @@
 [package]
-name = "mainboard_sdl2"
+name = "lp_sdl2"
 version = "0.1.0"
-description = "SDL2 UI for Mainboard"
+description = "SDL2 UI for Launchpad"
 edition = "2021"
 
 [dependencies]
@@ -13,6 +13,6 @@ serde = { version = "1.0.189", features = ["derive"] }
 stable_deref_trait = "1.2.0"
 thiserror = "1.0.49"
 yoke = { version = "0.7.2", features = ["derive"] }
-fuzzer = { package = "mainboard_fuzzer", version = "0.1.0", path = "../mainboard_fuzzer" }
-config = { package = "mainboard_config", version = "0.1.0", path = "../mainboard_config" }
+fuzzer = { package = "lp_fuzzer", version = "0.1.0", path = "../lp_fuzzer" }
+config = { package = "lp_config", version = "0.1.0", path = "../lp_config" }
 
